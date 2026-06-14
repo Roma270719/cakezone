@@ -31,19 +31,20 @@
 
             <div class="row justify-content-center">
                 <div class="col-lg-6">
-                    <form>
+                    <form action="{% url 'contact_us:contact_us_index' %}" method="post">
+                        {% csrf_token %}
                         <div class="row g-3">
                             <div class="col-sm-6">
-                                <input type="text" class="form-control bg-light border-0 px-4" placeholder="Your Name" style="height: 55px;">
+                                {{ message_form.name }}
                             </div>
                             <div class="col-sm-6">
-                                <input type="email" class="form-control bg-light border-0 px-4" placeholder="Your Email" style="height: 55px;">
+                                {{ message_form.email }}
                             </div>
                             <div class="col-sm-12">
-                                <input type="text" class="form-control bg-light border-0 px-4" placeholder="Subject" style="height: 55px;">
+                                {{ message_form.subject }}
                             </div>
                             <div class="col-sm-12">
-                                <textarea class="form-control bg-light border-0 px-4 py-3" rows="4" placeholder="Message"></textarea>
+                                {{ message_form.message }}
                             </div>
                             <div class="col-sm-12">
                                 <button class="btn btn-primary border-inner w-100 py-3" type="submit">Send Message</button>

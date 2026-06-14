@@ -1,6 +1,22 @@
 from django.db import models
 
 # Create your models here.
+class MessageFromCustomer(models.Model):
+    name = models.CharField(max_length=50)
+    email = models.EmailField()
+    subject = models.CharField(max_length=200)
+    message = models.TextField()
+
+    is_protected = models.BooleanField(default=False)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return f'{self.name}-{self.subject}'
+
+    class Meta:
+        ordering = ['created_at']
+
 class ContactUs(models.Model):
     address = models.TextField()
     photo = models.ImageField(upload_to='contact_us_photos/', blank=True, null=True)
@@ -20,3 +36,4 @@ class ContactUs(models.Model):
         ordering = ['sort']
         verbose_name = 'Contact Us'
         verbose_name_plural = 'Contact Us'
+

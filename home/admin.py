@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import HomeInfo, Review
+from .models import HomeInfo, Review, Subscribe
 
 
 class ReviewInLine(admin.TabularInline):
@@ -21,3 +21,10 @@ class ReviewAdmin(admin.ModelAdmin):
     list_filter = ('is_visible',)
     search_fields = ('first_name', 'last_name', 'grade')
     list_editable = ('grade', 'description', 'is_visible')
+
+@admin.register(Subscribe)
+class SubscribeAdmin(admin.ModelAdmin):
+    list_display = ('email', 'created_at', 'updated_at', 'is_active')
+    list_filter = ('is_active',)
+    search_fields = ('email',)
+    list_editable = ('is_active',)

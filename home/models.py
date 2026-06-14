@@ -2,6 +2,19 @@ from django.db import models
 from django.core.validators import MaxValueValidator, MinValueValidator
 
 # Create your models here.
+class Subscribe(models.Model):
+    email = models.EmailField()
+
+    is_active = models.BooleanField(default=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return self.email
+
+    class Meta:
+        ordering = ['created_at']
+
 class HomeInfo(models.Model):
     name = models.CharField(max_length=50)
     description = models.TextField()
