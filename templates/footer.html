@@ -42,7 +42,8 @@
                                 <a class="text-secondary" href="{% url 'contact_us:contact_us_index' %}"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                        {% if user.is_authenticated %}
+                            <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
                             <h4 class="text-primary text-uppercase mb-4">Newsletter</h4>
                             <p>Amet justo diam dolor rebum lorem sit stet sea justo kasd</p>
                             <form action="{% url 'home:subscribe_action' %}" method="post">
@@ -53,6 +54,7 @@
                                 </div>
                             </form>
                         </div>
+                        {% endif %}
                     </div>
                 </div>
             </div>
