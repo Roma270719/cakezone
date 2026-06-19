@@ -145,6 +145,8 @@ STATICFILES_DIRS = [
     BASE_DIR / 'static'
 ]
 
+WHITENOISE_USE_FINDERS = True
+WHITENOISE_MANIFEST_STRICT = False
 
 STORAGES = {
     "staticfiles": {
@@ -154,5 +156,6 @@ STORAGES = {
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+CSRF_TRUSTED_ORIGINS = ['https://railway.app']
