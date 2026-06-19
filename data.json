@@ -7,7 +7,7 @@
         "user": 1,
         "content_type": 9,
         "object_id": "1",
-        "object_repr": "Торты на ДР",
+        "object_repr": "РўРѕСЂС‚С‹ РЅР° Р”Р ",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -20,7 +20,7 @@
         "user": 1,
         "content_type": 9,
         "object_id": "2",
-        "object_repr": "Свадебные торты",
+        "object_repr": "РЎРІР°РґРµР±РЅС‹Рµ С‚РѕСЂС‚С‹",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -33,7 +33,7 @@
         "user": 1,
         "content_type": 9,
         "object_id": "3",
-        "object_repr": "Торты на пати",
+        "object_repr": "РўРѕСЂС‚С‹ РЅР° РїР°С‚Рё",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -111,7 +111,7 @@
         "user": 1,
         "content_type": 12,
         "object_id": "1",
-        "object_repr": "Торты на ДР",
+        "object_repr": "РўРѕСЂС‚С‹ РЅР° Р”Р ",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -124,7 +124,7 @@
         "user": 1,
         "content_type": 12,
         "object_id": "2",
-        "object_repr": "Свадебные торты",
+        "object_repr": "РЎРІР°РґРµР±РЅС‹Рµ С‚РѕСЂС‚С‹",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -137,7 +137,7 @@
         "user": 1,
         "content_type": 12,
         "object_id": "3",
-        "object_repr": "Торты на пати",
+        "object_repr": "РўРѕСЂС‚С‹ РЅР° РїР°С‚Рё",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -150,7 +150,7 @@
         "user": 1,
         "content_type": 12,
         "object_id": "1",
-        "object_repr": "Торты на ДР",
+        "object_repr": "РўРѕСЂС‚С‹ РЅР° Р”Р ",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
     }
@@ -163,7 +163,7 @@
         "user": 1,
         "content_type": 12,
         "object_id": "2",
-        "object_repr": "Свадебные торты",
+        "object_repr": "РЎРІР°РґРµР±РЅС‹Рµ С‚РѕСЂС‚С‹",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
     }
@@ -176,7 +176,7 @@
         "user": 1,
         "content_type": 12,
         "object_id": "3",
-        "object_repr": "Торты на пати",
+        "object_repr": "РўРѕСЂС‚С‹ РЅР° РїР°С‚Рё",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
     }
@@ -189,7 +189,7 @@
         "user": 1,
         "content_type": 13,
         "object_id": "1",
-        "object_repr": "Жмеренка, 1234",
+        "object_repr": "Р–РјРµСЂРµРЅРєР°, 1234",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -241,7 +241,7 @@
         "user": 1,
         "content_type": 9,
         "object_id": "1",
-        "object_repr": "Торты на ДР",
+        "object_repr": "РўРѕСЂС‚С‹ РЅР° Р”Р ",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
     }
@@ -254,7 +254,7 @@
         "user": 1,
         "content_type": 9,
         "object_id": "2",
-        "object_repr": "Свадебные торты",
+        "object_repr": "РЎРІР°РґРµР±РЅС‹Рµ С‚РѕСЂС‚С‹",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
     }
@@ -267,7 +267,7 @@
         "user": 1,
         "content_type": 9,
         "object_id": "3",
-        "object_repr": "Торты на пати",
+        "object_repr": "РўРѕСЂС‚С‹ РЅР° РїР°С‚Рё",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
     }
@@ -404,7 +404,7 @@
     "model": "menu_and_pricing.category",
     "pk": 1,
     "fields": {
-        "name": "Торты на ДР",
+        "name": "РўРѕСЂС‚С‹ РЅР° Р”Р ",
         "description": "dsafdasf sdaf asd fasd fs",
         "sort": 1,
         "is_visible": true
@@ -414,7 +414,7 @@
     "model": "menu_and_pricing.category",
     "pk": 2,
     "fields": {
-        "name": "Свадебные торты",
+        "name": "РЎРІР°РґРµР±РЅС‹Рµ С‚РѕСЂС‚С‹",
         "description": "adfsa df sadf asd fas d",
         "sort": 2,
         "is_visible": true
@@ -424,7 +424,7 @@
     "model": "menu_and_pricing.category",
     "pk": 3,
     "fields": {
-        "name": "Торты на пати",
+        "name": "РўРѕСЂС‚С‹ РЅР° РїР°С‚Рё",
         "description": "asdf asdf asd fasd fa",
         "sort": 3,
         "is_visible": true
@@ -550,7 +550,7 @@
     "model": "contact_us.contactus",
     "pk": 1,
     "fields": {
-        "address": "Жмеренка, 1234",
+        "address": "Р–РјРµСЂРµРЅРєР°, 1234",
         "photo": "",
         "phone": "+380666666666",
         "email": "cakezone@gmail.com",
